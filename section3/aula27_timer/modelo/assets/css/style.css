@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-color: #4F772D;
+    --secundary-color: #90A955;
+    --font: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: var(--font);
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+.container {
+    background-color: var(--secundary-color);
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p button {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    height: 50px;
+    cursor: pointer;
+    margin: 30px 40px 0px 40px;
+    padding: 10px;
+}
+
+p button:hover {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color: red;
+}
